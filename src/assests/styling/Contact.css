@@ -1,0 +1,145 @@
+
+/* Contact.css */
+
+
+#contact-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #363636; /* Primary color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #333; /* Text color */
+}
+
+input {
+  padding: 12px; /* Increase padding for better aesthetics */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Increase border-radius for rounded corners */
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out; /* Add a transition effect for smoother interaction */
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box-shadow on focus */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  resize: none; /* Disable resizing */
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box-shadow on focus */
+}
+
+.success-btn {
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color: rgb(245, 38, 72);
+}
+
+.success-btn:hover {
+  background-color: rgb(245, 71, 100); /* Darker shade on hover */
+}
+
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+  }
+  
+  .success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(171, 247, 171);
+    color: rgba(5, 107, 5, 0.719);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+    max-width: 400px; /* Set a maximum width for better readability */
+  }
+  
+  .success-popup p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(25, 100, 25);
+  }
+  
+  .success-popup button {
+    background-color: #28a745;
+    color: #2ccf26;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .success-popup button:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
+
+  
+  @media only screen and (max-width: 768px) {
+    form {
+      max-width: 100%; /* Adjust maximum width for smaller screens */
+    }
+  
+    h1 {
+      font-size: 18px; /* Reduce font size for improved readability */
+    }
+  
+    label {
+      font-size: 0.8em; /* Reduce label size */
+    }
+  
+    input,
+    textarea {
+      padding: 12px; /* Reduce padding for better touch interaction */
+    }
+  }

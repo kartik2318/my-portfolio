@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.752618c2.css",
+    "main.js": "/static/js/main.a18efe94.js",
+    "static/media/Portfolio.mp4": "/static/media/Portfolio.f6dc68447a9a9914f103.mp4",
+    "static/media/LUDO.mp4": "/static/media/LUDO.2623367e58e9602d1268.mp4",
+    "static/media/Currency-Convertor.mp4": "/static/media/Currency-Convertor.a781c5d9049ba89a4cee.mp4",
+    "static/media/Password-Generator.mp4": "/static/media/Password-Generator.5a96bc5c8a18db6230fa.mp4",
+    "static/media/currency-convertor.png": "/static/media/currency-convertor.e30b47e47e498169a99c.png",
+    "static/media/Guess-My-Number.mp4": "/static/media/Guess-My-Number.165bd752017c4b5fc2e2.mp4",
+    "static/media/LUDO.png": "/static/media/LUDO.53c52b79911467797566.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.8c1dd38f4008bbfc458e.png",
+    "static/media/Password-generator.png": "/static/media/Password-generator.e128192c069706cbf56e.png",
+    "static/media/fun-3d-cartoon.png": "/static/media/fun-3d-cartoon.0d973abbedf01a9b9a90.png",
+    "static/media/Guess-my-number.png": "/static/media/Guess-my-number.441bd13f65f60816cf09.png",
+    "index.html": "/index.html",
+    "main.752618c2.css.map": "/static/css/main.752618c2.css.map",
+    "main.a18efe94.js.map": "/static/js/main.a18efe94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.752618c2.css",
+    "static/js/main.a18efe94.js"
+  ]
+}

@@ -1,0 +1,31 @@
+/* WelcomeMessage.css */
+.welcome-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34; /* Change the background color as needed */
+ /* Change the text color as needed */
+  }
+  
+  .welcome-message-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out; /* Add a fade-in animation */
+    color:#61dafb;
+  }
+  
+  /* Keyframe animation for fadeInUp */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

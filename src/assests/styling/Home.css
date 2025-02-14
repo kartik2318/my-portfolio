@@ -1,0 +1,56 @@
+/* src/styles/ImageLayout.css */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; /* Adjust the height as needed */
+  position: relative;
+  overflow: hidden;
+}
+
+.centered-image {
+  width: 300px; /* Set the width of your image */
+  height: 300px; /* Set the height of your image */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  border-radius: 50%; /* Make the image circular if desired */
+}
+
+.image-name {
+  margin-top: 30px; /* Adjust the margin as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+/* Media query for screens smaller than 600px (adjust the value as needed) */
+@media screen and (max-width: 600px) {
+  .image-container {
+    height: auto; /* Auto height for smaller screens */
+  }
+
+  .centered-image {
+    width: 300px; /* Make the image fill the container width */
+    height: 300px; /* Auto height to maintain aspect ratio */
+    border-radius: 0; /* Remove border-radius for rectangular shape */
+    margin: 30px;
+  }
+
+  .image-name {
+    margin-top: 15px; /* Adjust the margin for smaller screens */
+    font-size: 15px; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Media query for screens larger than 600px (adjust the value as needed) */
+@media screen and (min-width: 601px) {
+  .image-container {
+    margin-top: 0px;
+    height: 90vh; /* Reset the height for larger screens */
+  }
+
+}
+
